@@ -15,7 +15,7 @@ int ReadPDB(char *filename, double *Da, double *Ba, double *Bs, double *dB, stru
     double Sum_dB = 0.0, Sum_B = 0.0;
     double SumAtomWeight = * SumAtomWeightPointer;
     double a = 1.0/(1.0 + WaterLayerContrast);
-    double WaterLayerGlycFactor = 1.20;
+    double WaterLayerGlycFactor = 1.10;
     double WaterLayerContrastGlyc = WaterLayerContrast * WaterLayerGlycFactor;
     double aG = 1.0/(1.0 + WaterLayerContrastGlyc);
     double n_W = 4.133; // number of watermolecules per water residue
