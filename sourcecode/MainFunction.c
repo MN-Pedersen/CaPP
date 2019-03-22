@@ -553,3 +553,5 @@ int main(int argc, char **argv)
     fclose(BetaFile);
     return 0;
 }
+
+// small change to get a version conflict, so vsCode git status can be reset
