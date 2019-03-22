@@ -1,4 +1,4 @@
-//subfunction
+//subfunction - 
 void WritePDB_Water(char filename[], double HalfBilayerThickness, double *Wx, double *Wy, double *Wz, int NW, int *GLYC_WL)
 {
     FILE * fil;
